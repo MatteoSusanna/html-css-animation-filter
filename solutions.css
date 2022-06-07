@@ -128,13 +128,24 @@
         left: 10%;
     }
     25%{
-        
+        left: 80%;
+        top: -10px;
     }
     50%{
-
+        left: 80%;
+        top: 60px;
+    }
+    75%{
+        left: -10%;
+        top: 60px;
+    }
+    80%{
+        left: -10%;
+        top: -10px;
     }
     100%{
-
+        top: -10px;
+        left: 10%;
     }
 }
 
@@ -144,12 +155,23 @@
         right: 20%;
     }
     25%{
-        
+        right: 80%;
+        bottom: -10px;
     }
     50%{
-
+        right: 80%;
+        bottom: 60px;
+    }
+    75%{
+        bottom: 60px;
+        right: -10%;
+    }
+    80%{
+        bottom: -10px;
+        right: -10%;
     }
     100%{
-
+        bottom: -10px;
+        right: 20%;
     }
 }
