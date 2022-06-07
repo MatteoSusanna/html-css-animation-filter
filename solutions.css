@@ -1,0 +1,85 @@
+/*soluzione1*/
+.ex-1-square:hover{
+    background-color: red;
+}
+
+
+/*soluzione2*/
+.ex-2-square:active{
+    width: 100%;
+}
+
+
+/*soluzione3*/
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+
+/*soluzione4*/
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+
+/*soluzione5*/
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(0.5);
+}
+
+
+/*soluzione6*/
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+
+
+/*soluzione7*/
+.ex-7-img:hover{
+    filter: grayscale(100%);
+    filter: sepia(100%);
+}
+
+
+/*soluzione8*/
+.ex-8-img:hover{
+    filter: contrast(50%);
+    filter: sepia(100%);
+    border-radius: 20px;
+}
+
+
+/*soluzione9*/
+.ex-9-img:hover{
+    filter: contrast(50%);
+    filter: sepia(100%);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
+
+/*soluzione10*/
+@keyframes ex-10{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+
+/*soluzione11*/
+.ex-11-icon:hover{
+    animation: ex-11 3s linear infinite;
+}
+
+@keyframes ex-11{
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
